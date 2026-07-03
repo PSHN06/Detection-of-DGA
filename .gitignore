@@ -1,0 +1,11 @@
+# Ignore massive preprocessed feature matrices (larger than 100MB)
+X_*.csv
+
+# Ignore target labels (optional, but keep repo lean)
+y_*.csv
+
+# Ignore compiler caches and temporary logs
+__pycache__/
+.ipynb_checkpoints/
+*.log
+confirm_location.py
